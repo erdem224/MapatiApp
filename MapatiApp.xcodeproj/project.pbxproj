@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A7948C41E69BA0800EA08D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948C31E69BA0800EA08D3 /* AppDelegate.swift */; };
+		7A7948C61E69BA0800EA08D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948C51E69BA0800EA08D3 /* ViewController.swift */; };
+		7A7948C91E69BA0800EA08D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7948C71E69BA0800EA08D3 /* Main.storyboard */; };
+		7A7948CB1E69BA0800EA08D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7948CA1E69BA0800EA08D3 /* Assets.xcassets */; };
+		7A7948CE1E69BA0800EA08D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7948CC1E69BA0800EA08D3 /* LaunchScreen.storyboard */; };
+		7A7948D91E69BA0900EA08D3 /* MapatiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948D81E69BA0900EA08D3 /* MapatiAppTests.swift */; };
+		7A7948E41E69BA0900EA08D3 /* MapatiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948E31E69BA0900EA08D3 /* MapatiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A7948D51E69BA0900EA08D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A7948B81E69BA0700EA08D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7948BF1E69BA0800EA08D3;
+			remoteInfo = MapatiApp;
+		};
+		7A7948E01E69BA0900EA08D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A7948B81E69BA0700EA08D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7948BF1E69BA0800EA08D3;
+			remoteInfo = MapatiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A7948C01E69BA0800EA08D3 /* MapatiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapatiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7948C31E69BA0800EA08D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A7948C51E69BA0800EA08D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A7948C81E69BA0800EA08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A7948CA1E69BA0800EA08D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A7948CD1E69BA0800EA08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A7948CF1E69BA0800EA08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7948D41E69BA0900EA08D3 /* MapatiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapatiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7948D81E69BA0900EA08D3 /* MapatiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapatiAppTests.swift; sourceTree = "<group>"; };
+		7A7948DA1E69BA0900EA08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7948DF1E69BA0900EA08D3 /* MapatiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapatiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7948E31E69BA0900EA08D3 /* MapatiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapatiAppUITests.swift; sourceTree = "<group>"; };
+		7A7948E51E69BA0900EA08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A7948BD1E69BA0800EA08D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7948D11E69BA0900EA08D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7948DC1E69BA0900EA08D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A7948B71E69BA0700EA08D3 = {
+			isa = PBXGroup;
+			children = (
+				7A7948C21E69BA0800EA08D3 /* MapatiApp */,
+				7A7948D71E69BA0900EA08D3 /* MapatiAppTests */,
+				7A7948E21E69BA0900EA08D3 /* MapatiAppUITests */,
+				7A7948C11E69BA0800EA08D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A7948C11E69BA0800EA08D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A7948C01E69BA0800EA08D3 /* MapatiApp.app */,
+				7A7948D41E69BA0900EA08D3 /* MapatiAppTests.xctest */,
+				7A7948DF1E69BA0900EA08D3 /* MapatiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A7948C21E69BA0800EA08D3 /* MapatiApp */ = {
+			isa = PBXGroup;
+			children = (
+				7A7948C31E69BA0800EA08D3 /* AppDelegate.swift */,
+				7A7948C51E69BA0800EA08D3 /* ViewController.swift */,
+				7A7948C71E69BA0800EA08D3 /* Main.storyboard */,
+				7A7948CA1E69BA0800EA08D3 /* Assets.xcassets */,
+				7A7948CC1E69BA0800EA08D3 /* LaunchScreen.storyboard */,
+				7A7948CF1E69BA0800EA08D3 /* Info.plist */,
+			);
+			path = MapatiApp;
+			sourceTree = "<group>";
+		};
+		7A7948D71E69BA0900EA08D3 /* MapatiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7948D81E69BA0900EA08D3 /* MapatiAppTests.swift */,
+				7A7948DA1E69BA0900EA08D3 /* Info.plist */,
+			);
+			path = MapatiAppTests;
+			sourceTree = "<group>";
+		};
+		7A7948E21E69BA0900EA08D3 /* MapatiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7948E31E69BA0900EA08D3 /* MapatiAppUITests.swift */,
+				7A7948E51E69BA0900EA08D3 /* Info.plist */,
+			);
+			path = MapatiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A7948BF1E69BA0800EA08D3 /* MapatiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7948E81E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiApp" */;
+			buildPhases = (
+				7A7948BC1E69BA0800EA08D3 /* Sources */,
+				7A7948BD1E69BA0800EA08D3 /* Frameworks */,
+				7A7948BE1E69BA0800EA08D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapatiApp;
+			productName = MapatiApp;
+			productReference = 7A7948C01E69BA0800EA08D3 /* MapatiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A7948D31E69BA0900EA08D3 /* MapatiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7948EB1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppTests" */;
+			buildPhases = (
+				7A7948D01E69BA0900EA08D3 /* Sources */,
+				7A7948D11E69BA0900EA08D3 /* Frameworks */,
+				7A7948D21E69BA0900EA08D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7948D61E69BA0900EA08D3 /* PBXTargetDependency */,
+			);
+			name = MapatiAppTests;
+			productName = MapatiAppTests;
+			productReference = 7A7948D41E69BA0900EA08D3 /* MapatiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A7948DE1E69BA0900EA08D3 /* MapatiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7948EE1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppUITests" */;
+			buildPhases = (
+				7A7948DB1E69BA0900EA08D3 /* Sources */,
+				7A7948DC1E69BA0900EA08D3 /* Frameworks */,
+				7A7948DD1E69BA0900EA08D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7948E11E69BA0900EA08D3 /* PBXTargetDependency */,
+			);
+			name = MapatiAppUITests;
+			productName = MapatiAppUITests;
+			productReference = 7A7948DF1E69BA0900EA08D3 /* MapatiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A7948B81E69BA0700EA08D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = erdem;
+				TargetAttributes = {
+					7A7948BF1E69BA0800EA08D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84F4RQ385W;
+						ProvisioningStyle = Automatic;
+					};
+					7A7948D31E69BA0900EA08D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84F4RQ385W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A7948BF1E69BA0800EA08D3;
+					};
+					7A7948DE1E69BA0900EA08D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84F4RQ385W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A7948BF1E69BA0800EA08D3;
+					};
+				};
+			};
+			buildConfigurationList = 7A7948BB1E69BA0700EA08D3 /* Build configuration list for PBXProject "MapatiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A7948B71E69BA0700EA08D3;
+			productRefGroup = 7A7948C11E69BA0800EA08D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A7948BF1E69BA0800EA08D3 /* MapatiApp */,
+				7A7948D31E69BA0900EA08D3 /* MapatiAppTests */,
+				7A7948DE1E69BA0900EA08D3 /* MapatiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A7948BE1E69BA0800EA08D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7948CE1E69BA0800EA08D3 /* LaunchScreen.storyboard in Resources */,
+				7A7948CB1E69BA0800EA08D3 /* Assets.xcassets in Resources */,
+				7A7948C91E69BA0800EA08D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7948D21E69BA0900EA08D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7948DD1E69BA0900EA08D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A7948BC1E69BA0800EA08D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7948C61E69BA0800EA08D3 /* ViewController.swift in Sources */,
+				7A7948C41E69BA0800EA08D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7948D01E69BA0900EA08D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7948D91E69BA0900EA08D3 /* MapatiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7948DB1E69BA0900EA08D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7948E41E69BA0900EA08D3 /* MapatiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A7948D61E69BA0900EA08D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A7948BF1E69BA0800EA08D3 /* MapatiApp */;
+			targetProxy = 7A7948D51E69BA0900EA08D3 /* PBXContainerItemProxy */;
+		};
+		7A7948E11E69BA0900EA08D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A7948BF1E69BA0800EA08D3 /* MapatiApp */;
+			targetProxy = 7A7948E01E69BA0900EA08D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A7948C71E69BA0800EA08D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7948C81E69BA0800EA08D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A7948CC1E69BA0800EA08D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7948CD1E69BA0800EA08D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A7948E61E69BA0900EA08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A7948E71E69BA0900EA08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A7948E91E69BA0900EA08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84F4RQ385W;
+				INFOPLIST_FILE = MapatiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A7948EA1E69BA0900EA08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84F4RQ385W;
+				INFOPLIST_FILE = MapatiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A7948EC1E69BA0900EA08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84F4RQ385W;
+				INFOPLIST_FILE = MapatiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapatiApp.app/MapatiApp";
+			};
+			name = Debug;
+		};
+		7A7948ED1E69BA0900EA08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84F4RQ385W;
+				INFOPLIST_FILE = MapatiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapatiApp.app/MapatiApp";
+			};
+			name = Release;
+		};
+		7A7948EF1E69BA0900EA08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84F4RQ385W;
+				INFOPLIST_FILE = MapatiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MapatiApp;
+			};
+			name = Debug;
+		};
+		7A7948F01E69BA0900EA08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84F4RQ385W;
+				INFOPLIST_FILE = MapatiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MapatiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A7948BB1E69BA0700EA08D3 /* Build configuration list for PBXProject "MapatiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7948E61E69BA0900EA08D3 /* Debug */,
+				7A7948E71E69BA0900EA08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7948E81E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7948E91E69BA0900EA08D3 /* Debug */,
+				7A7948EA1E69BA0900EA08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A7948EB1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7948EC1E69BA0900EA08D3 /* Debug */,
+				7A7948ED1E69BA0900EA08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A7948EE1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7948EF1E69BA0900EA08D3 /* Debug */,
+				7A7948F01E69BA0900EA08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A7948B81E69BA0700EA08D3 /* Project object */;
+}
