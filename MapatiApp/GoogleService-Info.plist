@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>460107508979-rvfcfv2qcbc1kc42759s4mibiei55fb7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.460107508979-rvfcfv2qcbc1kc42759s4mibiei55fb7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD5erGvFrnZSgjoENzBmoK3U5Rx794Z-BE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>460107508979</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>gladio.mapati</string>
+	<key>PROJECT_ID</key>
+	<string>mapati-16848</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mapati-16848.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:460107508979:ios:01661a701fb80b26</string>
+	<key>DATABASE_URL</key>
+	<string>https://mapati-16848.firebaseio.com</string>
+</dict>
+</plist>

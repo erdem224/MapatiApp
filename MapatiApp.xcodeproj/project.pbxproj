@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AA9278C71436425D8AD4E22 /* Pods_MapatiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9903870CA72ED553FB76C03D /* Pods_MapatiAppTests.framework */; };
+		7A1B54481E6B45D700334729 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B54471E6B45D700334729 /* MapViewController.swift */; };
+		7A1B544A1E6B5AF600334729 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1B54491E6B5AF600334729 /* CoreLocation.framework */; };
+		7A1B544C1E6B5B1A00334729 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1B544B1E6B5B1A00334729 /* MapKit.framework */; };
+		7A1EEE251E6D706E00BAAD00 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EEE241E6D706E00BAAD00 /* PostViewController.swift */; };
+		7A6B3EA51E69FA7400C8A008 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B3EA41E69FA7400C8A008 /* RegisterViewController.swift */; };
 		7A7948C41E69BA0800EA08D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948C31E69BA0800EA08D3 /* AppDelegate.swift */; };
 		7A7948C61E69BA0800EA08D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948C51E69BA0800EA08D3 /* ViewController.swift */; };
 		7A7948C91E69BA0800EA08D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7948C71E69BA0800EA08D3 /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		7A7948CE1E69BA0800EA08D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7948CC1E69BA0800EA08D3 /* LaunchScreen.storyboard */; };
 		7A7948D91E69BA0900EA08D3 /* MapatiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948D81E69BA0900EA08D3 /* MapatiAppTests.swift */; };
 		7A7948E41E69BA0900EA08D3 /* MapatiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7948E31E69BA0900EA08D3 /* MapatiAppUITests.swift */; };
+		7A7948F21E69C65C00EA08D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A7948F11E69C65C00EA08D3 /* GoogleService-Info.plist */; };
+		7ED2101B6C3DDF544E3FA6B8 /* Pods_MapatiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF9314CE9241D61075C37FE /* Pods_MapatiApp.framework */; };
+		D93D9B2CABF5447C63D4009E /* Pods_MapatiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AF3FB49D7A541B7DAB3747 /* Pods_MapatiAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9626BC34E31812B48599CE /* Pods-MapatiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapatiAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapatiAppUITests/Pods-MapatiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D2517880BFE5CAEA07F92A0 /* Pods-MapatiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapatiAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapatiAppTests/Pods-MapatiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		469152652A54F6A819A6D127 /* Pods-MapatiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapatiApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapatiApp/Pods-MapatiApp.release.xcconfig"; sourceTree = "<group>"; };
+		560E4C53BC88D95C69B13A2B /* Pods-MapatiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapatiAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapatiAppTests/Pods-MapatiAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CF9314CE9241D61075C37FE /* Pods_MapatiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapatiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1B54471E6B45D700334729 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7A1B54491E6B5AF600334729 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7A1B544B1E6B5B1A00334729 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7A1EEE241E6D706E00BAAD00 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		7A6B3EA41E69FA7400C8A008 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7A7948C01E69BA0800EA08D3 /* MapatiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapatiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7948C31E69BA0800EA08D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7948C51E69BA0800EA08D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,11 @@
 		7A7948DF1E69BA0900EA08D3 /* MapatiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapatiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7948E31E69BA0900EA08D3 /* MapatiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapatiAppUITests.swift; sourceTree = "<group>"; };
 		7A7948E51E69BA0900EA08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7948F11E69C65C00EA08D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9903870CA72ED553FB76C03D /* Pods_MapatiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapatiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F6F2A78669BD2345AD8CB2 /* Pods-MapatiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapatiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapatiApp/Pods-MapatiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C3AF3FB49D7A541B7DAB3747 /* Pods_MapatiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapatiAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF474D997A8DF8387918976 /* Pods-MapatiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapatiAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapatiAppUITests/Pods-MapatiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1B544C1E6B5B1A00334729 /* MapKit.framework in Frameworks */,
+				7A1B544A1E6B5AF600334729 /* CoreLocation.framework in Frameworks */,
+				7ED2101B6C3DDF544E3FA6B8 /* Pods_MapatiApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA9278C71436425D8AD4E22 /* Pods_MapatiAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93D9B2CABF5447C63D4009E /* Pods_MapatiAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75582DA7F6FE645FCA3C0CFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0F6F2A78669BD2345AD8CB2 /* Pods-MapatiApp.debug.xcconfig */,
+				469152652A54F6A819A6D127 /* Pods-MapatiApp.release.xcconfig */,
+				2D2517880BFE5CAEA07F92A0 /* Pods-MapatiAppTests.debug.xcconfig */,
+				560E4C53BC88D95C69B13A2B /* Pods-MapatiAppTests.release.xcconfig */,
+				1D9626BC34E31812B48599CE /* Pods-MapatiAppUITests.debug.xcconfig */,
+				EAF474D997A8DF8387918976 /* Pods-MapatiAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A7948B71E69BA0700EA08D3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				7A7948D71E69BA0900EA08D3 /* MapatiAppTests */,
 				7A7948E21E69BA0900EA08D3 /* MapatiAppUITests */,
 				7A7948C11E69BA0800EA08D3 /* Products */,
+				75582DA7F6FE645FCA3C0CFF /* Pods */,
+				989EB18950AD8AA9DF03AFE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +146,11 @@
 				7A7948C71E69BA0800EA08D3 /* Main.storyboard */,
 				7A7948CA1E69BA0800EA08D3 /* Assets.xcassets */,
 				7A7948CC1E69BA0800EA08D3 /* LaunchScreen.storyboard */,
+				7A7948F11E69C65C00EA08D3 /* GoogleService-Info.plist */,
 				7A7948CF1E69BA0800EA08D3 /* Info.plist */,
+				7A6B3EA41E69FA7400C8A008 /* RegisterViewController.swift */,
+				7A1B54471E6B45D700334729 /* MapViewController.swift */,
+				7A1EEE241E6D706E00BAAD00 /* PostViewController.swift */,
 			);
 			path = MapatiApp;
 			sourceTree = "<group>";
@@ -125,6 +173,18 @@
 			path = MapatiAppUITests;
 			sourceTree = "<group>";
 		};
+		989EB18950AD8AA9DF03AFE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A1B544B1E6B5B1A00334729 /* MapKit.framework */,
+				7A1B54491E6B5AF600334729 /* CoreLocation.framework */,
+				6CF9314CE9241D61075C37FE /* Pods_MapatiApp.framework */,
+				9903870CA72ED553FB76C03D /* Pods_MapatiAppTests.framework */,
+				C3AF3FB49D7A541B7DAB3747 /* Pods_MapatiAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A7948E81E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiApp" */;
 			buildPhases = (
+				3A108DA6B6D6D11E29D57DAC /* [CP] Check Pods Manifest.lock */,
 				7A7948BC1E69BA0800EA08D3 /* Sources */,
 				7A7948BD1E69BA0800EA08D3 /* Frameworks */,
 				7A7948BE1E69BA0800EA08D3 /* Resources */,
+				BC9B40DC906268CD3CDA04FF /* [CP] Embed Pods Frameworks */,
+				D6E2625B83344D248CEFB1A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A7948EB1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppTests" */;
 			buildPhases = (
+				1D67E43B8CFBC3F9DF624F24 /* [CP] Check Pods Manifest.lock */,
 				7A7948D01E69BA0900EA08D3 /* Sources */,
 				7A7948D11E69BA0900EA08D3 /* Frameworks */,
 				7A7948D21E69BA0900EA08D3 /* Resources */,
+				391578D0D2AD1FFCC5F08FFE /* [CP] Embed Pods Frameworks */,
+				0C03A86FEFE5C76BDB800109 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A7948EE1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppUITests" */;
 			buildPhases = (
+				1B9EDCEDA24F0568E9A7649C /* [CP] Check Pods Manifest.lock */,
 				7A7948DB1E69BA0900EA08D3 /* Sources */,
 				7A7948DC1E69BA0900EA08D3 /* Frameworks */,
 				7A7948DD1E69BA0900EA08D3 /* Resources */,
+				0BA8BA6AD2D8AC1181E851BE /* [CP] Embed Pods Frameworks */,
+				D5BCB28FFB1EA4E0A3327AD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7948CE1E69BA0800EA08D3 /* LaunchScreen.storyboard in Resources */,
+				7A7948F21E69C65C00EA08D3 /* GoogleService-Info.plist in Resources */,
 				7A7948CB1E69BA0800EA08D3 /* Assets.xcassets in Resources */,
 				7A7948C91E69BA0800EA08D3 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +327,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BA8BA6AD2D8AC1181E851BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapatiAppUITests/Pods-MapatiAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C03A86FEFE5C76BDB800109 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapatiAppTests/Pods-MapatiAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B9EDCEDA24F0568E9A7649C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D67E43B8CFBC3F9DF624F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		391578D0D2AD1FFCC5F08FFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapatiAppTests/Pods-MapatiAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A108DA6B6D6D11E29D57DAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC9B40DC906268CD3CDA04FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapatiApp/Pods-MapatiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5BCB28FFB1EA4E0A3327AD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapatiAppUITests/Pods-MapatiAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E2625B83344D248CEFB1A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapatiApp/Pods-MapatiApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A7948BC1E69BA0800EA08D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6B3EA51E69FA7400C8A008 /* RegisterViewController.swift in Sources */,
 				7A7948C61E69BA0800EA08D3 /* ViewController.swift in Sources */,
 				7A7948C41E69BA0800EA08D3 /* AppDelegate.swift in Sources */,
+				7A1B54481E6B45D700334729 /* MapViewController.swift in Sources */,
+				7A1EEE251E6D706E00BAAD00 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,32 +624,43 @@
 		};
 		7A7948E91E69BA0900EA08D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F6F2A78669BD2345AD8CB2 /* Pods-MapatiApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: silivri_erdem_rap@hotmail.com (3ZL8EE74ZG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 84F4RQ385W;
 				INFOPLIST_FILE = MapatiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.mapati;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7A7948EA1E69BA0900EA08D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469152652A54F6A819A6D127 /* Pods-MapatiApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: silivri_erdem_rap@hotmail.com (3ZL8EE74ZG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 84F4RQ385W;
 				INFOPLIST_FILE = MapatiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gladio.MapatiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = gladio.mapati;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7A7948EC1E69BA0900EA08D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2517880BFE5CAEA07F92A0 /* Pods-MapatiAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +676,7 @@
 		};
 		7A7948ED1E69BA0900EA08D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560E4C53BC88D95C69B13A2B /* Pods-MapatiAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +692,7 @@
 		};
 		7A7948EF1E69BA0900EA08D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9626BC34E31812B48599CE /* Pods-MapatiAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 84F4RQ385W;
@@ -483,6 +707,7 @@
 		};
 		7A7948F01E69BA0900EA08D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF474D997A8DF8387918976 /* Pods-MapatiAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 84F4RQ385W;
@@ -514,6 +739,7 @@
 				7A7948EA1E69BA0900EA08D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A7948EB1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +748,7 @@
 				7A7948ED1E69BA0900EA08D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A7948EE1E69BA0900EA08D3 /* Build configuration list for PBXNativeTarget "MapatiAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +757,7 @@
 				7A7948F01E69BA0900EA08D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
